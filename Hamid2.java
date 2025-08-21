@@ -29,9 +29,9 @@ import javax.swing.*;
 		// load images and add scenes
 		
 		public void loadImages() {
-			bg=new ImageIcon("C:\\Users\\hamid\\Eclipse-Workspace-new\\Java Game Development\\src\\bg.png").getImage();
-			Image face1=new ImageIcon("C:\\Users\\hamid\\Eclipse-Workspace-new\\Java Game Development\\src\\face1.png").getImage();
-			Image face2=new ImageIcon("C:\\Users\\hamid\\Eclipse-Workspace-new\\Java Game Development\\src\\face2.png").getImage();
+			bg=new ImageIcon("bg.png").getImage();
+			Image face1=new ImageIcon("face1.png").getImage();
+			Image face2=new ImageIcon("face2.png").getImage();
 			a = new Animation();
 			a.addScene(face1, 250);
 			a.addScene(face2, 250);
